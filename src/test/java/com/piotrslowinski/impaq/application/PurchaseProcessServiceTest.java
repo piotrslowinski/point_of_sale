@@ -132,4 +132,43 @@ public class PurchaseProcessServiceTest {
         List<Receipt.ReceiptLine> products = service.getReceipt().getProducts();
         assertEquals(Arrays.asList("milk", "milk"), products.stream().map(p -> p.getName()).collect(Collectors.toList()));
     }
+
+    @Test
+    public void shouldReturnTotalPrice() {
+        //given
+        Mockito.when(productRepository.get("milkCode")).thenReturn(Optional.of(p1));
+        Mockito.when(productRepository.get("breadCode")).thenReturn(Optional.of(p2));
+
+        //when
+        Mockito.when(mockProductScanner.scanProductCode()).thenReturn("milkCode");
+        service.scanProduct(service.getUsersInput());
+
+        Mockito.when(mockProductScanner.scanProductCode()).thenReturn("breadCode");
+        service.scanProduct(service.getUsersInput());
+
+        //then
+        BigDecimal totalPrice = service.getReceipt().calculateTotalPrice();
+        assertEquals(BigDecimal.valueOf(3.50), totalPrice);
+    }
+
+    @Test
+    public void shouldDisplayReceipt() {
+        //given
+        Mockito.when(productRepository.get("milkCode")).thenReturn(Optional.of(p1));
+        Mockito.when(productRepository.get("breadCode")).thenReturn(Optional.of(p2));
+
+        //when
+        Mockito.when(mockProductScanner.scanProductCode()).thenReturn("milkCode");
+        service.scanProduct(service.getUsersInput());
+
+        Mockito.when(mockProductScanner.scanProductCode()).thenReturn("breadCode");
+        service.scanProduct(service.getUsersInput());
+
+        //then
+        BigDecimal totalPrice = service.getReceipt().calculateTotalPrice();
+        assertEquals(BigDecimal.valueOf(3.50), totalPrice);
+
+        List<Receipt.ReceiptLine> products = service.getReceipt().getProducts();
+        assertEquals(Arrays.asList("milk", "bread"), products.stream().map(p -> p.getName()).collect(Collectors.toList()));
+    }
 }

@@ -17,7 +17,13 @@ public class Receipt {
     }
 
     public BigDecimal calculateTotalPrice() {
-        return totalPrice; //TODO
+        List<BigDecimal> productsPrices = products.stream().map(p -> p.unitPrice).collect(Collectors.toList());
+        BigDecimal sum = BigDecimal.ZERO;
+        for (BigDecimal price: productsPrices) {
+            sum = sum.add(price);
+        }
+        this.totalPrice = sum;
+        return totalPrice;
     }
 
     public void addReceiptLine(String name, BigDecimal price) {
