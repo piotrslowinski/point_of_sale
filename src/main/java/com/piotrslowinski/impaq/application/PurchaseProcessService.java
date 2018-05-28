@@ -75,4 +75,8 @@ public class PurchaseProcessService {
     public Receipt getReceipt() {
         return receipt;
     }
+
+    public void printReceipt() {
+        printer.print(prepareReceipt(receipt));
+    }
 }
