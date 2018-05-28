@@ -19,12 +19,16 @@ public class MainScreen implements Screen {
         System.out.println("1 - Scan poducts:");
         System.out.println("2 - Exit");
         int option = Integer.parseInt(scanner.nextLine());
-        switch (option){
+        switch (option) {
             case 1:
                 scannerScreen.show();
                 break;
             case 2:
-                return;
+                break;
+            default:
+                System.out.println("Wrong input!!");
+                System.out.println();
+                show();
         }
     }
 }

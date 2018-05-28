@@ -147,8 +147,8 @@ public class PurchaseProcessServiceTest {
         service.scanProduct(service.getUsersInput());
 
         //then
-        BigDecimal totalPrice = service.getReceipt().calculateTotalPrice();
-        assertEquals(BigDecimal.valueOf(3.50), totalPrice);
+        BigDecimal totalPrice = service.calculateTotalPrice();
+        assertEquals(BigDecimal.valueOf(3.50).setScale(2), totalPrice);
     }
 
     @Test
@@ -165,8 +165,8 @@ public class PurchaseProcessServiceTest {
         service.scanProduct(service.getUsersInput());
 
         //then
-        BigDecimal totalPrice = service.getReceipt().calculateTotalPrice();
-        assertEquals(BigDecimal.valueOf(3.50), totalPrice);
+        BigDecimal totalPrice = service.calculateTotalPrice();
+        assertEquals(BigDecimal.valueOf(3.50).setScale(2), totalPrice);
 
         List<Receipt.ReceiptLine> products = service.getReceipt().getProducts();
         assertEquals(Arrays.asList("milk", "bread"), products.stream().map(p -> p.getName()).collect(Collectors.toList()));

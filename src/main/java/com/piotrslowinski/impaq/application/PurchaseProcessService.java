@@ -6,6 +6,7 @@ import com.piotrslowinski.impaq.model.repositories.ProductRepository;
 import com.piotrslowinski.impaq.ui.printer.Printer;
 import com.piotrslowinski.impaq.ui.scanner.ProductScanner;
 
+import java.math.BigDecimal;
 import java.util.Optional;
 
 public class PurchaseProcessService {
@@ -56,16 +57,20 @@ public class PurchaseProcessService {
 
     private String prepareReceipt(Receipt receipt) {
         StringBuilder sb = new StringBuilder();
-        for (Receipt.ReceiptLine line : receipt.getProducts()){
+        for (Receipt.ReceiptLine line : receipt.getProducts()) {
             sb.append(line.getName());
             sb.append(" ");
             sb.append(line.getUnitPrice());
             sb.append("\n");
         }
         sb.append("Total price: ");
-        sb.append(receipt.calculateTotalPrice());
+        sb.append(calculateTotalPrice());
         sb.append(" zl");
         return sb.toString();
+    }
+
+    public BigDecimal calculateTotalPrice() {
+        return receipt.calculateTotalPrice();
     }
 
     public String getUsersInput() {

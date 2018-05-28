@@ -12,10 +12,9 @@ import com.piotrslowinski.impaq.ui.screen.Screen;
 
 import java.util.Scanner;
 
-public class App
-{
-    public static void main( String[] args )
-    {
+public class App {
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Printer printer = new VirtualPrinter();
         ProductRepository productRepository = new InMemoryProductRepository();

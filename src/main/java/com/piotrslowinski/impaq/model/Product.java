@@ -23,6 +23,6 @@ public class Product {
     }
 
     public BigDecimal getPrice() {
-        return price;
+        return price.setScale(2);
     }
 }

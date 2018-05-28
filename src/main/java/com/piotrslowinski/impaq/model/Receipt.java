@@ -17,11 +17,7 @@ public class Receipt {
     }
 
     public BigDecimal calculateTotalPrice() {
-        List<BigDecimal> productsPrices = products.stream().map(p -> p.unitPrice).collect(Collectors.toList());
-        BigDecimal sum = BigDecimal.ZERO;
-        for (BigDecimal price: productsPrices) {
-            sum = sum.add(price);
-        }
+        BigDecimal sum = products.stream().map(p -> p.unitPrice).reduce(BigDecimal.ZERO, BigDecimal::add);
         this.totalPrice = sum;
         return totalPrice;
     }

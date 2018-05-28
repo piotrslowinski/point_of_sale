@@ -17,9 +17,9 @@ public class ScannerScreen implements Screen {
     }
 
 
-    public void show(){
+    public void show() {
         String input;
-        do{
+        do {
             input = service.getUsersInput();
             String message = service.scanProduct(input);
             if (!input.equals("exit")) {

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38da5d4c-d471-47bd-9829-795144479732" name="Default" comment="console ui added">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/infrastructure/InMemoryProductRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/printer/VirtualPrinter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/scanner/VirtualProductScanner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/MainScreen.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/ScannerScreen.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/Screen.java" />
+    <list default="true" id="38da5d4c-d471-47bd-9829-795144479732" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/App.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/PurchaseProcessService.java" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/PurchaseProcessService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Product.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Receipt.java" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Receipt.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/printer/VirtualPrinter.java" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/printer/VirtualPrinter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/MainScreen.java" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/MainScreen.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/ScannerScreen.java" afterPath="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/ScannerScreen.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/piotrslowinski/impaq/application/PurchaseProcessServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/piotrslowinski/impaq/application/PurchaseProcessServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,105 +23,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PurchaseProcessService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/PurchaseProcessService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1433#1434#0" expanded="true" />
-                <element signature="e#1510#1511#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1824#1825#0" expanded="true" />
-                <element signature="e#1874#1875#0" expanded="true" />
-                <element signature="e#1936#1937#0" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
-                <element signature="e#2492#2493#0" expanded="true" />
-                <element signature="e#2527#2528#0" expanded="true" />
-                <element signature="e#2557#2558#0" expanded="true" />
-                <element signature="e#2591#2592#0" expanded="true" />
-                <element signature="e#2645#2646#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PurchaseProcessServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/piotrslowinski/impaq/application/PurchaseProcessServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1177">
-              <caret line="171" column="120" lean-forward="false" selection-start-line="171" selection-start-column="120" selection-end-line="171" selection-end-column="120" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VirtualPrinter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/printer/VirtualPrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VirtualProductScanner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/scanner/VirtualProductScanner.java">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/App.java">
+      <file leaf-file-name="Receipt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Receipt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="-187">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/Screen.java">
+      <file leaf-file-name="ProductRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/repositories/ProductRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/MainScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScannerScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/ScannerScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,12 +69,50 @@
       <file leaf-file-name="InMemoryProductRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/infrastructure/InMemoryProductRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="197">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#805#806#0" expanded="true" />
                 <element signature="e#860#861#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PurchaseProcessService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/PurchaseProcessService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81">
+              <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1462#1463#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+                <element signature="e#1803#1804#0" expanded="true" />
+                <element signature="e#1853#1854#0" expanded="true" />
+                <element signature="e#1903#1904#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#2469#2470#0" expanded="true" />
+                <element signature="e#2521#2522#0" expanded="true" />
+                <element signature="e#2558#2559#0" expanded="true" />
+                <element signature="e#2613#2614#0" expanded="true" />
+                <element signature="e#2648#2649#0" expanded="true" />
+                <element signature="e#2678#2679#0" expanded="true" />
+                <element signature="e#2712#2713#0" expanded="true" />
+                <element signature="e#2766#2767#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,6 +123,38 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PurchaseProcessServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/piotrslowinski/impaq/application/PurchaseProcessServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2958">
+              <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/MainScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScannerScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/ScannerScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -175,20 +182,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/repositories/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/printer/Printer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/scanner/ProductScanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Receipt.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/piotrslowinski/impaq/application/PurchaseProcessServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/printer/VirtualPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/scanner/VirtualProductScanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/infrastructure/InMemoryProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/Screen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/MainScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/ScannerScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/PurchaseProcessService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/printer/VirtualPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/PurchaseProcessService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/piotrslowinski/impaq/application/PurchaseProcessServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Receipt.java" />
       </list>
     </option>
   </component>
@@ -446,7 +453,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.PurchaseProcessServiceTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -486,6 +493,31 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="PurchaseProcessServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.piotrslowinski.impaq.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="point_of_sale" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.piotrslowinski.impaq.application" />
+      <option name="MAIN_CLASS_NAME" value="com.piotrslowinski.impaq.application.PurchaseProcessServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="PurchaseProcessServiceTest.shouldDisplayReceipt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -511,7 +543,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PurchaseProcessServiceTest.shouldReturnSameScannedProductMultiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseProcessServiceTest.shouldDisplaySingleProductAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.piotrslowinski.impaq.application.*" />
@@ -523,32 +555,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.piotrslowinski.impaq.application" />
       <option name="MAIN_CLASS_NAME" value="com.piotrslowinski.impaq.application.PurchaseProcessServiceTest" />
-      <option name="METHOD_NAME" value="shouldReturnSameScannedProductMultiply" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PurchaseProcessServiceTest.shouldReturnScannedProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.piotrslowinski.impaq.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="point_of_sale" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.piotrslowinski.impaq.application" />
-      <option name="MAIN_CLASS_NAME" value="com.piotrslowinski.impaq.application.PurchaseProcessServiceTest" />
-      <option name="METHOD_NAME" value="shouldReturnScannedProducts" />
+      <option name="METHOD_NAME" value="shouldDisplaySingleProductAttributes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -647,19 +654,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldReturnScannedProducts" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldReturnSameScannedProductMultiply" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldReturnTotalPrice" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldDisplayReceipt" />
-      <item index="4" class="java.lang.String" itemvalue="Application.App" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldReturnTotalPrice" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldDisplayReceipt" />
+      <item index="2" class="java.lang.String" itemvalue="Application.App" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldDisplaySingleProductAttributes" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldDisplayReceipt" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldReturnTotalPrice" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldReturnSameScannedProductMultiply" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldReturnScannedProducts" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldDisplaySingleProductAttributes" />
+        <item index="2" class="java.lang.String" itemvalue="Application.App" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldDisplayReceipt" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PurchaseProcessServiceTest.shouldReturnTotalPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -698,33 +705,40 @@
       <option name="project" value="LOCAL" />
       <updated>1527509758902</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="console ui added">
+      <created>1527511227431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527511227431</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PurchaseProcessServiceTest_shouldDisplayErrorMessageWhenCodeIsEmpty - 2018.05.28 at 14h 01m 32s.xml">
-      <configuration name="PurchaseProcessServiceTest.shouldDisplayErrorMessageWhenCodeIsEmpty" configurationId="JUnit" />
+    <history-entry file="PurchaseProcessServiceTest - 2018.05.28 at 14h 51m 45s.xml">
+      <configuration name="PurchaseProcessServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseProcessServiceTest_shouldDisplayErrorMessageWhenCodeIsWhitespace - 2018.05.28 at 14h 01m 56s.xml">
-      <configuration name="PurchaseProcessServiceTest.shouldDisplayErrorMessageWhenCodeIsWhitespace" configurationId="JUnit" />
+    <history-entry file="PurchaseProcessServiceTest - 2018.05.28 at 14h 52m 42s.xml">
+      <configuration name="PurchaseProcessServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseProcessServiceTest_shouldDisplayErrorMessageWhenProductDoesntExist - 2018.05.28 at 14h 02m 35s.xml">
-      <configuration name="PurchaseProcessServiceTest.shouldDisplayErrorMessageWhenProductDoesntExist" configurationId="JUnit" />
+    <history-entry file="PurchaseProcessServiceTest - 2018.05.28 at 14h 56m 41s.xml">
+      <configuration name="PurchaseProcessServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PurchaseProcessServiceTest - 2018.05.28 at 15h 56m 40s.xml">
+      <configuration name="PurchaseProcessServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PurchaseProcessServiceTest - 2018.05.28 at 15h 57m 38s.xml">
+      <configuration name="PurchaseProcessServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PurchaseProcessServiceTest - 2018.05.28 at 15h 58m 01s.xml">
+      <configuration name="PurchaseProcessServiceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PurchaseProcessServiceTest_shouldDisplayReceipt - 2018.05.28 at 14h 14m 51s.xml">
       <configuration name="PurchaseProcessServiceTest.shouldDisplayReceipt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseProcessServiceTest_shouldReturnSameScannedProductMultiply - 2018.05.28 at 14h 04m 51s.xml">
-      <configuration name="PurchaseProcessServiceTest.shouldReturnSameScannedProductMultiply" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PurchaseProcessServiceTest_shouldReturnSameScannedProductMultiply - 2018.05.28 at 14h 07m 57s.xml">
-      <configuration name="PurchaseProcessServiceTest.shouldReturnSameScannedProductMultiply" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PurchaseProcessServiceTest_shouldReturnScannedProducts - 2018.05.28 at 14h 04m 17s.xml">
-      <configuration name="PurchaseProcessServiceTest.shouldReturnScannedProducts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PurchaseProcessServiceTest_shouldReturnTotalPrice - 2018.05.28 at 14h 09m 16s.xml">
-      <configuration name="PurchaseProcessServiceTest.shouldReturnTotalPrice" configurationId="JUnit" />
+    <history-entry file="PurchaseProcessServiceTest_shouldDisplaySingleProductAttributes - 2018.05.28 at 14h 51m 41s.xml">
+      <configuration name="PurchaseProcessServiceTest.shouldDisplaySingleProductAttributes" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PurchaseProcessServiceTest_shouldReturnTotalPrice - 2018.05.28 at 14h 12m 10s.xml">
       <configuration name="PurchaseProcessServiceTest.shouldReturnTotalPrice" configurationId="JUnit" />
@@ -739,13 +753,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -797,7 +811,7 @@
             <element signature="e#432#433#0" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -832,35 +846,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/repositories/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,7 +862,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/scanner/ProductScanner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -880,14 +870,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Receipt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/scanner/VirtualProductScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#218#219#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/scanner/ProductScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/printer/VirtualPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/repositories/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/infrastructure/InMemoryProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -900,105 +955,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/model/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/piotrslowinski/impaq/application/PurchaseProcessServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1177">
-          <caret line="171" column="120" lean-forward="false" selection-start-line="171" selection-start-column="120" selection-end-line="171" selection-end-column="120" />
+        <state relative-caret-position="2958">
+          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/infrastructure/InMemoryProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/printer/VirtualPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/scanner/VirtualProductScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/ScannerScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/PurchaseProcessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1824#1825#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#1936#1937#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
-            <element signature="e#2527#2528#0" expanded="true" />
-            <element signature="e#2557#2558#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-            <element signature="e#2645#2646#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/MainScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="129">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/ui/screen/ScannerScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/piotrslowinski/impaq/application/PurchaseProcessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1903#1904#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#2469#2470#0" expanded="true" />
+            <element signature="e#2521#2522#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="e#2613#2614#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2712#2713#0" expanded="true" />
+            <element signature="e#2766#2767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
