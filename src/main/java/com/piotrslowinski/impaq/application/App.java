@@ -1,4 +1,4 @@
-package com.piotrslowinski.impaq;
+package com.piotrslowinski.impaq.application;
 
 /**
  * Hello world!
