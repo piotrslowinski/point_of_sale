@@ -28,7 +28,7 @@ public class PurchaseProcessService {
         if (input.equals("exit"))
             return prepareReceipt(receipt);
         else if (isInputEmpty(input))
-            return "Invalid bar code";
+            return "Invalid bar-code";
         else if (!isProductPresent(productOptional))
             return "Product not found";
         else {
@@ -70,5 +70,9 @@ public class PurchaseProcessService {
 
     public String getUsersInput() {
         return productScanner.scanProductCode();
+    }
+
+    public Receipt getReceipt() {
+        return receipt;
     }
 }
