@@ -84,4 +84,8 @@ public class PurchaseProcessService {
     public void printReceipt() {
         printer.print(prepareReceipt(receipt));
     }
+
+    public BigDecimal getTotalCost() {
+        return receipt.getTotalPrice();
+    }
 }

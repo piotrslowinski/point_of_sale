@@ -3,7 +3,6 @@ package com.piotrslowinski.impaq.model;
 import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Receipt {
 
@@ -25,6 +24,10 @@ public class Receipt {
     public void addReceiptLine(String name, BigDecimal price) {
         ReceiptLine receiptLine = new ReceiptLine(name, price);
         products.add(receiptLine);
+    }
+
+    public BigDecimal getTotalPrice() {
+        return totalPrice;
     }
 
     public class ReceiptLine {

@@ -2,6 +2,7 @@ package com.piotrslowinski.impaq.ui.screen;
 
 import com.piotrslowinski.impaq.application.PurchaseProcessService;
 
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class ScannerScreen implements Screen {
@@ -27,7 +28,8 @@ public class ScannerScreen implements Screen {
             }
         } while (!input.equals("exit"));
 
-        service.printReceipt();
+        if (!service.getTotalCost().equals(BigDecimal.ZERO))
+            service.printReceipt();
     }
 
     private void displayMessage(String message) {
